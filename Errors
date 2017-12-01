@@ -1,0 +1,17 @@
+The errors in circles is as follows:
+
+1. There was an error in Circle.java where the method Scale used “radius = radius + factor”
+There should have been a multiplication sign instead of the + sign. TestScale() caught this.
+
+2. There was an error in Circle.java where the method Point used “center.y = center.y + xOffset”
+It should be yOffset instead. This was caught by just looking over the code and simpleMove().
+
+3. I would include import java.lang.* to any file that used MATH functions just for safety.
+
+4. In Circle2.java there is an error in the constructor. It should be super(x,y,radius)
+The original code had the x and y switched up. SimpleMove() caught this.
+
+5. In Circle1 there is an error when the code just used <. It should be <=. testIntersect() caught
+this.
+
+
